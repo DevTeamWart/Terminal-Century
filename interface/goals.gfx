@@ -1,0 +1,63 @@
+spriteTypes = {
+
+    SpriteType = {
+        name = "GFX_Into_Twenty_Ten_We_Step"
+        texturefile = "gfx/interface/goals/ITWS.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_Rumsfelds_Last_Stand"
+        texturefile = "gfx/interface/goals/RLS.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_Dealing_With_Protests"
+        texturefile = "gfx/interface/goals/DWP.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_The_Open_Hand"
+        texturefile = "gfx/interface/goals/TOH.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_Sit_Down_With_Them"
+        texturefile = "gfx/interface/goals/SDWT.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_Promise_To_Resign"
+        texturefile = "gfx/interface/goals/TDTPA.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_The_AR"
+        texturefile = "gfx/interface/goals/TAR.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_Return_To_Your_Homes"
+        texturefile = "gfx/interface/goals/RTYH.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_Shut_Down_CNN"
+        texturefile = "gfx/interface/goals/SDC.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_No_More_Nonsense"
+        texturefile = "gfx/interface/goals/NMN.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_Rumsfeldian_Demise"
+        texturefile = "gfx/interface/goals/RM.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_A_New_Leader"
+        texturefile = "gfx/interface/goals/ANL.dds"
+    }
+
+}
