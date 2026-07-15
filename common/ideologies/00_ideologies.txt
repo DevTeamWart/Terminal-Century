@@ -1,0 +1,683 @@
+ideologies = {
+     
+	anarchism = {
+
+		types = {
+			makhnovshchina = {
+			}
+
+			individualism = {
+			}
+
+			anarcho_pasicifism = {
+			}
+
+			anarcho_communism = {
+			}
+
+			ancap = {
+			}
+		}
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_join_factions = no
+			can_guarantee_other_ideologies = no
+		}
+
+		color = { 0 0 0 }
+
+		war_impact_on_world_tension = 0.05
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -100.0
+			army_intel_to_others = -5.0
+			navy_intel_to_others = -5.0
+			airforce_intel_to_others = -5.0
+		}
+
+	}
+
+	annihilationism = {
+
+		types = {
+
+			christian = {
+			}
+
+			accelerationism = {
+			}
+
+			conditional_immortality = {
+			}
+
+			partial_annihilationism = {
+			}
+
+			ontological_annihilation = {
+			}
+
+		}
+
+		color = { 155 178 191 }
+
+		war_impact_on_world_tension = 0.05
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = no
+		}
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.3
+			send_volunteers_tension = 0.1
+			guarantee_tension = 0.1
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -5.0
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	classicalist_liberalism = {
+
+		types = {
+
+			natural_rights_liberalism = {
+			}
+
+			utilitarian_liberalism = {
+			}
+
+			neoclassical_liberalism = {
+			}
+
+			ordoliberallism = {
+			}
+
+			utilitarian_transition = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 237 234 21 }
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = no
+			can_guarantee_other_ideologies = no
+		}
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -100.0
+			army_intel_to_others = -5.0
+			navy_intel_to_others = -5.0
+			airforce_intel_to_others = -5.0
+		}
+
+	}
+
+	communism = {
+
+		types = {
+
+			stalinism = {
+			}
+
+			marxism = {
+			}
+
+			leninism = {
+			}
+
+			council_communism = {
+			}
+
+			maoism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 196 31 6 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.3
+			send_volunteers_tension = 0.1
+			guarantee_tension = 0.1
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -5.0
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	conservatism = {
+
+		types = {
+
+			traditional_conservatism = {
+			}
+
+			social_conservatism = {
+			}
+
+			national_conservatism = {
+			}
+
+			libertarian_conservatism = {
+			}
+
+			paleoconservatism = {
+			}
+			
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 14 52 97 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = yes
+		}	
+
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.1
+			send_volunteers_tension = 0.1
+			guarantee_tension = 0.1
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -5.0
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	despotism = {
+
+		types = {
+
+			classical = {
+			}
+
+			enlightened_despotism = {
+			}
+
+			soft_despotism = {
+			}
+
+			oriental_despotism = {
+			}
+
+			autocracy = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 64 67 71 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = yes
+		}	
+
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -5.0
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	esotericsm = {
+
+		types = {
+
+			hermeticism = {
+			}
+
+			gnosticism = {
+			}
+
+			kabbalah = {
+			}
+
+			theosophy = {
+			}
+
+			esoteric_nazism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 132 35 196 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_join_factions = no
+			can_guarantee_other_ideologies = no
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -5.0
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	fascism = {
+
+		types = {
+
+			falangism = {
+			}
+
+			italian_fascism = {
+			}
+
+			francoism = {
+			}
+
+			clerical_fascism = {
+			}
+
+			neo_fascism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 102 63 11 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = no
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	liberal_conservatism = {
+
+		types = {
+
+			classical = {
+			}
+
+			christian_democratic_conservatism = {
+			}
+
+			libertarian_conservatism = {
+			}
+
+			fiscal_conservatism = {
+			}
+
+			neoconservationism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 229 242 126 }
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_join_factions = yes
+			can_guarantee_other_ideologies = no
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	national_socialism = {
+
+		types = {
+
+			strasserism = {
+			}
+
+			orthodox_nazism = {
+			}
+
+
+			völkisch_nazism = {
+			}
+
+			neo_nazism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 97 78 78 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = no
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	nationalist = {
+		
+		types = {
+
+			civic_nationalism = {
+			}
+
+			ethnonationalism = {
+			}
+
+			cultural_nationalism = {
+			}
+
+			economic_nationalism = {
+			}
+
+			anti_colonial_nationalism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 87 69 43 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = no
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	progressive_liberalism = {
+
+		types = {
+
+			social_liberalism = {
+			}
+
+			technocratic_progressivism = {
+			}
+
+			intersectionality = {
+			}
+
+			eco_liberalism = {
+			}
+
+			neo_progressivisim = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 71 173 73 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = no
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	socialism = {
+
+		types = {
+
+			social_democracy = {
+			}
+
+			state_socialism = {
+			}
+
+			anarcho_socialism = {
+			}
+
+			market_socialism = {
+			}
+
+			democratic_socialism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 173 86 64 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_guarantee_other_ideologies = yes
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	theocratism = {
+
+		types = {
+
+			pure ={
+			}
+
+			shared_theocracy = {
+			}
+
+			caesaropapism = {
+			}
+
+			radical_millenarian_theocracy = {
+			}
+
+			quasi_theocracy = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 188 224 247 }
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = yes
+			can_guarantee_other_ideologies = yes
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+	totalitarianism = {
+
+		types = {
+
+			communist_tot = {
+			}
+
+			fascist_tot = {
+			}
+
+			racialist_totalitarianism = {
+			}
+
+			theocratic_totalitarianism = {
+			}
+
+			techno_totalitarianism = {
+			}
+
+		}
+
+		war_impact_on_world_tension = 0.05
+
+		color = { 125 109 36 }
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = yes
+			can_guarantee_other_ideologies = yes
+		}	
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.2
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = -20.00
+			army_intel_to_others = -20.00
+			navy_intel_to_others = -20.0
+			airforce_intel_to_others = -5.00
+		}
+
+	}
+
+}
