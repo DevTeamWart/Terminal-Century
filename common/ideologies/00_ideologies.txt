@@ -639,19 +639,10 @@ ideologies = {
 
 		types = {
 
-			communist_tot = {
+			agenda2025_tot = {
 			}
 
-			fascist_tot = {
-			}
-
-			racialist_totalitarianism = {
-			}
-
-			theocratic_totalitarianism = {
-			}
-
-			techno_totalitarianism = {
+			british_socialism_tot = {
 			}
 
 		}
