@@ -29,3 +29,7 @@
  AML_DEF:0 "American Foreign Legion"
  PMC:0 "PMC WAGNER"
  PMC_DEF:0 "PMC WAGNER"
+ APM:0 "PMC Wagner Mali Forces"
+ APM_DEF:0 "PMC Wagner Mali Forces"
+ SAL:0 "Mali Salafists"
+ SAL_DEF:0 "Mali Salafists"
