@@ -11,3 +11,12 @@ tags={
 }
 name="Terminal Century"
 supported_version="1.19.2.0"
+replace_path="effect/trigger/"
+replace_path="common/scripted_localisation"
+replace_path="common/national_focus"
+replace_path="common/scripted_effects"
+replace_path ="events"
+replace_path="common/ai_strategy"
+replace_path="common/ai_strategy_plans"
+replace_path="common/decisions"
+replace_path="common/characters"
