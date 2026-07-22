@@ -3,38 +3,30 @@ state = {
 	name = "STATE_1044"
 	manpower = 1010300
 	state_category = pastoral
-
 	history = {
-
-		owner = XSM
-		add_core_of = XSM
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = PRC
-
 		buildings = {
 			infrastructure = 1
 		}
-
-		victory_points = {
-			5100 1 #Wuwei
-		}
-
+		victory_points = { 5100 1 }
 		1936.1.1 = {
 			IF = {
 				limit = {
-					has_dlc = "No Compromise, No Surrender" 
+					has_dlc = "No Compromise, No Surrender"
 				}
-				GSM = { transfer_state = PREV }
+				GSM = {
+					transfer_state = PREV
+				}
 				add_core_of = GSM
 				remove_core_of = XSM
 			}
 		}
-
 		1938.10.25 = {
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger" 
+						has_dlc = "Waking the Tiger"
 					}
 				}
 				CHI = {
@@ -42,15 +34,8 @@ state = {
 				}
 			}
 		}
-
 	}
-
-	provinces = {
-		1630 5057 5100 12327 12776 
-	}
-	
+	provinces = { 1630 5057 5100 12327 12776 }
 	buildings_max_level_factor = 1.000
-	
-
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

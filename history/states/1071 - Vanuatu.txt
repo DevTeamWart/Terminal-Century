@@ -1,20 +1,12 @@
 state = {
 	id = 1071
 	name = "STATE_1071"
-	resources = {
-	}
-	
+	resources = {}
 	state_category = small_island
-
 	history = {
-
-		owner = FRA
+		owner = VAN
 		add_core_of = VAN
-
-		victory_points = {
-			12120 1 # Port Vila 
-		}
-
+		victory_points = { 12120 1 }
 		buildings = {
 			infrastructure = 2
 			12120 = {
@@ -25,12 +17,8 @@ state = {
 			}
 		}
 	}
-
-	provinces = {
-		1237 4247 12120 
-	}
+	provinces = { 1237 4247 12120 }
 	manpower = 21876
 	buildings_max_level_factor = 1.000
-
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

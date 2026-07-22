@@ -2,31 +2,20 @@ state = {
 	id = 1021
 	name = "STATE_1021"
 	manpower = 557745
-	
 	state_category = large_town
-	
 	resources = {
 		steel = 10
-		tungsten =29
+		tungsten = 29
 		aluminium = 5
 	}
-
 	history = {
-
-		owner = ENG
-		add_core_of = MAL
+		owner = SNG
 		add_core_of = SNG
-
-		victory_points = {
-			12299 10 # Singapore
-		}
-
+		victory_points = { 12299 10 }
 		buildings = {
-
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 6
-
 			12299 = {
 				naval_base = 8
 				coastal_bunker = 3
@@ -38,14 +27,8 @@ state = {
 					}
 				}
 			}
-
 		}
-		
 	}
-
-	provinces = {
-		12299
-	}
-
-	local_supplies = 0.0 
+	provinces = { 12299 }
+	local_supplies = 0.0
 }
