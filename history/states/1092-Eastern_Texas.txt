@@ -1,0 +1,40 @@
+state = {
+	id = 1092
+	name = "Eastern Texas"
+	manpower = 2020818
+	state_category = city
+	history = {
+		buildings = {
+			industrial_complex = 3
+			infrastructure = 3
+		}
+		victory_points = { 10337 10 }
+		victory_points = { 3960 10 }
+		owner = FBI
+		add_core_of = FBI
+	}
+	provinces = {
+		805
+		1500
+		2082
+		3960
+		4577
+		5001
+		5022
+		6968
+		7628
+		9829
+		10337
+		10504
+		10778
+		10861
+		12341
+		12410
+		12486
+	}
+	resources = {
+		oil = 73
+		aluminium = 17
+		coal = 3
+	}
+}

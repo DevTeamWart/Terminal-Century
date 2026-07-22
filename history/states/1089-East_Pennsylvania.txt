@@ -1,0 +1,35 @@
+state = {
+	id = 1089
+	name = "East Pennsylvania"
+	manpower = 3577357
+	state_category = city
+	history = {
+		owner = SOA
+		buildings = {
+			industrial_complex = 1
+			dockyard = 2
+			infrastructure = 4
+		}
+		victory_points = { 6845 20 }
+		add_core_of = SOA
+	}
+	provinces = {
+		862
+		891
+		894
+		3697
+		3824
+		3897
+		6845
+		6869
+		9820
+		9836
+		11785
+		11799
+		11817
+	}
+	resources = {
+		steel = 16
+		coal = 59
+	}
+}

@@ -3,28 +3,17 @@ state = {
 	name = "STATE_1072"
 	manpower = 43214
 	state_category = tiny_island
-
 	history = {
-
-		owner = USA 
+		owner = SAM
 		add_core_of = SAM
-
 		buildings = {
 			infrastructure = 1
 			13080 = {
 				naval_base = 1
 			}
 		}
-
-		victory_points = {
-			13080 1 # Pago Pago  
-		}
-
+		victory_points = { 13080 1 }
 	}
-
-	provinces = {
-		13080 
-	}
-
-	local_supplies = 0.0 
+	provinces = { 13080 }
+	local_supplies = 0.0
 }

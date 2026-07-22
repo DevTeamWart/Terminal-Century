@@ -1,0 +1,31 @@
+state = {
+	id = 1087
+	name = "Northern New York"
+	manpower = 4072608
+	state_category = city
+	history = {
+		owner = TRD
+		buildings = {
+			industrial_complex = 2
+			dockyard = 1
+			infrastructure = 4
+		}
+		add_core_of = TRD
+	}
+	provinces = {
+		598
+		3602
+		6778
+		6795
+		6916
+		9721
+		9754
+		10381
+		11662
+		11665
+		11722
+	}
+	resources = {
+		steel = 4
+	}
+}

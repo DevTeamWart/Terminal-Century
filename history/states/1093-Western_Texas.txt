@@ -1,0 +1,33 @@
+state = {
+	id = 1093
+	name = "Western Texas"
+	manpower = 1426460
+	state_category = city
+	history = {
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		owner = MAE
+		add_core_of = MAE
+	}
+	provinces = {
+		1954
+		1998
+		4955
+		5038
+		6798
+		7836
+		7981
+		8064
+		10740
+		10894
+		12728
+		12875
+	}
+	resources = {
+		oil = 51
+		aluminium = 12
+		coal = 3
+	}
+}

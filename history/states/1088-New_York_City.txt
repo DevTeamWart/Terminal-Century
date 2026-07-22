@@ -1,0 +1,14 @@
+state = {
+	id = 1088
+	name = "New York City"
+	manpower = 740474
+	state_category = metropolis
+	history = {
+		owner = NYP
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = NYP
+	}
+	provinces = { 859 3878 }
+}

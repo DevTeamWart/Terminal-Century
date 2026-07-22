@@ -1,0 +1,49 @@
+state = {
+	id = 1082
+	name = "STATE_1082"
+	manpower = 2607732
+	state_category = city
+	history = {
+		owner = RFL
+		buildings = {
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			infrastructure = 3
+		}
+		add_core_of = RFL
+	}
+	provinces = {
+		610
+		677
+		710
+		766
+		768
+		781
+		1601
+		3588
+		3644
+		3677
+		3678
+		4331
+		6482
+		6665
+		6681
+		6694
+		6699
+		6745
+		6757
+		6772
+		9671
+		9697
+		9713
+		9730
+		10159
+		11658
+		11698
+	}
+	resources = {
+		oil = 55
+		aluminium = 4
+	}
+}

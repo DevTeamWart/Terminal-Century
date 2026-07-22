@@ -1,0 +1,18 @@
+state = {
+	id = 1094
+	name = "Northern Michigan"
+	manpower = 864700
+	state_category = large_town
+	history = {
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		owner = BLM
+	}
+	provinces = { 709 751 4854 5205 10599 }
+	resources = {
+		steel = 10
+		oil = 1
+	}
+}

@@ -1,0 +1,11 @@
+state = {
+	id = 1083
+	name = "Central California"
+	manpower = 0
+	state_category = large_town
+	history = {
+		owner = CFL
+		add_core_of = CFL
+	}
+	provinces = { 1432 3840 6861 6876 9637 }
+}

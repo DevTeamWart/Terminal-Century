@@ -1,0 +1,17 @@
+state = {
+	id = 1084
+	name = "North New England"
+	manpower = 1313236
+	state_category = town
+	history = {
+		owner = NET
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = NET
+	}
+	provinces = { 1282 1619 4287 10247 12221 }
+	resources = {
+		steel = 1
+	}
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 1091
+	name = "Southern Texas"
+	manpower = 1069845
+	state_category = city
+	history = {
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = { 12782 1 }
+		owner = AWD
+		add_core_of = AWD
+	}
+	provinces = {
+		1927
+		2019
+		2042
+		4884
+		5061
+		6785
+		6987
+		12369
+		12782
+	}
+	resources = {
+		oil = 38
+		aluminium = 9
+		coal = 2
+	}
+}

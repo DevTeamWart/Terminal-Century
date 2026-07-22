@@ -1,0 +1,28 @@
+state = {
+	id = 1085
+	name = "Central New England"
+	manpower = 1838531
+	state_category = large_town
+	history = {
+		owner = PZM
+		buildings = {
+			industrial_complex = 1
+			dockyard = 1
+			infrastructure = 4
+		}
+		victory_points = { 12459 1 }
+		add_core_of = PZM
+	}
+	provinces = {
+		1338
+		3732
+		6719
+		7462
+		10318
+		12202
+		12459
+	}
+	resources = {
+		steel = 2
+	}
+}

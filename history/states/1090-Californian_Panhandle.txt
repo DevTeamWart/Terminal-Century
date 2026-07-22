@@ -1,0 +1,23 @@
+state = {
+	id = 1090
+	name = "Californian Panhandle"
+	manpower = 642341
+	state_category = city
+	history = {
+		owner = JSM
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		add_core_of = JSM
+	}
+	provinces = {
+		1556
+		1572
+		10352
+		10380
+		10407
+		12353
+		12381
+	}
+}

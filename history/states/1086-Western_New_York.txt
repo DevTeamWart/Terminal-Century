@@ -1,0 +1,26 @@
+state = {
+	id = 1086
+	name = "Western New York"
+	manpower = 2221422
+	state_category = city
+	history = {
+		owner = WPS
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 4
+		}
+		victory_points = { 11654 3 }
+		add_core_of = WPS
+	}
+	provinces = {
+		734
+		3733
+		6707
+		9664
+		11654
+		11680
+	}
+	resources = {
+		steel = 2
+	}
+}
