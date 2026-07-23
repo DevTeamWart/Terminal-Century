@@ -1,0 +1,18 @@
+state = {
+	id = 1096
+	name = "New Orleans"
+	manpower = 750568
+	state_category = large_city
+	history = {
+		owner = SJC
+		add_core_of = SJC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 7552 10 }
+	}
+	provinces = { 1453 4535 7524 7552 12398 }
+	resources = {
+		oil = 10
+	}
+}

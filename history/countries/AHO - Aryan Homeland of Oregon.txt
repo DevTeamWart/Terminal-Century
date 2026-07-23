@@ -1,12 +1,26 @@
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.62
+set_war_support = 0.71
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = national_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	communism = 2
+	fascism = 18
+	anarchism = 3
+	annihilationism = 4
+	classicalist_liberalism = 2
+	conservatism = 6
+	despotism = 13
+	esotericsm = 7
+	liberal_conservatism = 2
+	national_socialism = 20
+	nationalist = 11
+	progressive_liberalism = 1
+	socialism = 2
+	theocratism = 3
+	totalitarianism = 6
 }

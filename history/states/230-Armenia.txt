@@ -10,7 +10,6 @@ state = {
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = ARM
 		add_core_of = TCE
 		1939.1.1 = {
 			buildings = {

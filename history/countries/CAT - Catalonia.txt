@@ -1,0 +1,27 @@
+capital = 165
+set_research_slots = 3
+set_stability = 0.71
+set_war_support = 0.52
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 21
+	fascism = 3
+	anarchism = 4
+	annihilationism = 1
+	classicalist_liberalism = 4
+	conservatism = 9
+	despotism = 2
+	esotericsm = 3
+	liberal_conservatism = 9
+	national_socialism = 6
+	nationalist = 8
+	progressive_liberalism = 7
+	socialism = 16
+	theocratism = 4
+	totalitarianism = 3
+}

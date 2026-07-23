@@ -1,0 +1,27 @@
+capital = 826
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 2
+	fascism = 9
+	anarchism = 3
+	annihilationism = 2
+	classicalist_liberalism = 5
+	conservatism = 12
+	despotism = 21
+	esotericsm = 3
+	liberal_conservatism = 5
+	national_socialism = 2
+	nationalist = 7
+	progressive_liberalism = 4
+	socialism = 4
+	theocratism = 3
+	totalitarianism = 18
+}
+set_stability = 0.22
+set_war_support = 0.83
+set_research_slots = 3

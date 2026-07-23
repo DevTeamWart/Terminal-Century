@@ -6,11 +6,12 @@ state = {
 		rubber = 3
 	}
 	history = {
-		owner = UGA
+		owner = EAF
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = UGA
+		add_core_of = EAF
 		victory_points = { 12989 1 }
 	}
 	provinces = {

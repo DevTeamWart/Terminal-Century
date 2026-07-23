@@ -7,7 +7,7 @@ state = {
 		tungsten = 3
 	}
 	history = {
-		owner = RWA
+		owner = EAF
 		IF = {
 			limit = {
 				has_dlc = "Gotterdammerung"
@@ -18,6 +18,7 @@ state = {
 			}
 		}
 		add_core_of = RWA
+		add_core_of = EAF
 		victory_points = { 9962 1 }
 		buildings = {
 			infrastructure = 1

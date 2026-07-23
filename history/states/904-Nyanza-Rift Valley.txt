@@ -4,11 +4,12 @@ state = {
 	manpower = 678400
 	state_category = pastoral
 	history = {
-		owner = KEN
+		owner = EAF
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = KEN
+		add_core_of = EAF
 	}
 	provinces = { 5160 10860 11145 }
 	buildings_max_level_factor = 1.000

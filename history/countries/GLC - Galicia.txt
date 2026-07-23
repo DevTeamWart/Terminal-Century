@@ -1,0 +1,21 @@
+capital = 171
+set_popularities = {
+	communism = 23
+	fascism = 12
+	anarchism = 2
+	annihilationism = 1
+	classicalist_liberalism = 4
+	conservatism = 5
+	despotism = 1
+	esotericsm = 1
+	liberal_conservatism = 1
+	national_socialism = 6
+	nationalist = 19
+	progressive_liberalism = 2
+	socialism = 12
+	theocratism = 9
+	totalitarianism = 2
+}
+set_research_slots = 3
+set_stability = 0.62
+set_war_support = 0.41

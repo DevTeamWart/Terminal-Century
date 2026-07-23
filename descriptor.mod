@@ -1,4 +1,4 @@
-version="0.1"
+version="0.2"
 tags={
 	"Alternative History"
 	"Events"
@@ -20,3 +20,4 @@ replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
 replace_path="common/decisions"
 replace_path="common/characters"
+replace_path="common/country_tags"
