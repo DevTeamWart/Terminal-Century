@@ -1,0 +1,16 @@
+characters = {
+	Norman_Jayden = {
+		name = Norman_Jayden
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Norman_Jayden
+			}
+		}
+		country_leader = {
+			ideology = autocracy
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

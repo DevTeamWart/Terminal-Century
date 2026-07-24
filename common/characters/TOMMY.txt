@@ -1,0 +1,16 @@
+characters = {
+	Tommy_Franks = {
+		name = Tommy_Franks
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Tommy_Franks
+			}
+		}
+		country_leader = {
+			ideology = classical
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

@@ -2,10 +2,10 @@ ideologies = {
 	anarchism = {
 		types = {
 			makhnovshchina = {}
-			individualism = {}
 			anarcho_pasicifism = {}
 			anarcho_communism = {}
 			ancap = {}
+			punk = {}
 		}
 		rules = {
 			can_force_government = no
@@ -30,8 +30,8 @@ ideologies = {
 			christian = {}
 			accelerationism = {}
 			partial_annihilationism = {}
-			ontological_annihilation = {}
 			cannibalism = {}
+			satanist = {}
 		}
 		color = { 155 178 191 }
 		war_impact_on_world_tension = 0.05
@@ -146,8 +146,8 @@ ideologies = {
 			classical = {}
 			enlightened_despotism = {}
 			soft_despotism = {}
-			oriental_despotism = {}
 			autocracy = {}
+			corporatism = {}
 		}
 		war_impact_on_world_tension = 0.05
 		color = { 64 67 71 }

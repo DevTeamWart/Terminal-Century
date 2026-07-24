@@ -1,0 +1,70 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_Klaus_Schwab"
+		texturefile = "gfx/leaders/GER/portrait_Klaus_Schwab.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Alexander_Gauland"
+		texturefile = "gfx/leaders/GER/portrait_Alexander_Gauland.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Armin_Meiwes"
+		texturefile = "gfx/leaders/GER/portrait_Armin_Meiwes.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Gunther_Felhinger"
+		texturefile = "gfx/leaders/AST/portrait_Gunther_Felhinger.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Alice_Weidel"
+		texturefile = "gfx/leaders/GER/portrait_Alice_Weidel.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Alice_Weidel_small"
+		texturefile = "gfx/leaders/GER/portrait_Alice_Weidel_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Bjorne_Hocke"
+		texturefile = "gfx/leaders/GER/portrait_Bjorne_Hocke.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_James_Mason"
+		texturefile = "gfx/leaders/AWD/portrait_James_Mason.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Maximilian_Schirmer"
+		texturefile = "gfx/leaders/GER/portrait_Maximilian_Schirmer.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Norman_Jayden"
+		texturefile = "gfx/leaders/FBI/portrait_Norman_Jayden.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Richard_Kruspe"
+		texturefile = "gfx/leaders/GER/portrait_Richard_Kruspe.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Sascha_Konietzko"
+		texturefile = "gfx/leaders/GNC/portrait_Sascha_Konietzko.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Lars_Klingbeil"
+		texturefile = "gfx/leaders/GER/portrait_Lars_Klingbeil.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Max_Payne"
+		texturefile = "gfx/leaders/WPS/portrait_Max_Payne.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Ude_Ulfkotte"
+		texturefile = "gfx/leaders/UDE/portrait_Ude_Ulfkotte.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Viktor_Chirkov"
+		texturefile = "gfx/leaders/VIKTOR/portrait_Viktor_Chirkov.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_Tommy_Franks"
+		texturefile = "gfx/leaders/TOMMY/portrait_Tommy_Franks.dds"
+	}
+}

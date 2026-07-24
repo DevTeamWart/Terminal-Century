@@ -1,0 +1,16 @@
+characters = {
+	James_Mason = {
+		name = James_Mason
+		portraits = {
+			civilian = {
+				large = GFX_portrait_James_Mason
+			}
+		}
+		country_leader = {
+			ideology = accelerationism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

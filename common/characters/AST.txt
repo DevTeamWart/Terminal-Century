@@ -1,0 +1,16 @@
+characters = {
+	Gunther_Felhinger = {
+		name = Gunther_Felhinger
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Gunther_Felhinger
+			}
+		}
+		country_leader = {
+			ideology = intersectionality
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	Ude_Ulfkotte = {
+		name = Ude_Ulfkotte
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Ude_Ulfkotte
+			}
+		}
+		country_leader = {
+			ideology = neo_nazism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

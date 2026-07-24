@@ -1,0 +1,11 @@
+state = {
+	id = 1097
+	name = "Transnistria"
+	manpower = 0
+	state_category = large_city
+	history = {
+		owner = TRN
+		add_core_of = TRN
+	}
+	provinces = { 13414 13415 13416 13417 }
+}

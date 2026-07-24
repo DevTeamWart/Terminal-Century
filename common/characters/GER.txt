@@ -1,0 +1,135 @@
+characters = {
+	Klaus_Schwab = {
+		name = Klaus_Schwab
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Klaus_Schwab
+			}
+		}
+		country_leader = {
+			ideology = agenda2025_tot
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+	Alexander_Gauland = {
+		name = Alexander_Gauland
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Alexander_Gauland
+			}
+		}
+		country_leader = {
+			ideology = ethnonationalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+	Armin_Meiwes = {
+		name = Armin_Meiwes
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Armin_Meiwes
+			}
+		}
+		country_leader = {
+			ideology = cannibalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+	Alice_Weidel = {
+		name = Alice_Weidel
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Alice_Weidel
+				small = GFX_portrait_Alice_Weidel_small
+			}
+		}
+		country_leader = {
+			ideology = economic_nationalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = weidel
+			cost = 100
+			traits = {}
+		}
+	}
+	Bjorne_Hocke = {
+		name = Bjorne_Hocke
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Bjorne_Hocke
+			}
+		}
+		country_leader = {
+			ideology = cultural_nationalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+	Maximilian_Schirmer = {
+		name = Maximilian_Schirmer
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Maximilian_Schirmer
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+	Richard_Kruspe = {
+		name = Richard_Kruspe
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Richard_Kruspe
+			}
+		}
+		country_leader = {
+			ideology = punk
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+	Sascha_Konietzko = {
+		name = Sascha_Konietzko
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Sascha_Konietzko
+			}
+		}
+		country_leader = {
+			ideology = punk
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+	Lars_Klingbeil = {
+		name = Lars_Klingbeil
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Lars_Klingbeil
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

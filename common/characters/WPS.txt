@@ -1,0 +1,16 @@
+characters = {
+	Max_Payne = {
+		name = Max_Payne
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Max_Payne
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

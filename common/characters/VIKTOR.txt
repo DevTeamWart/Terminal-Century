@@ -1,0 +1,16 @@
+characters = {
+	Viktor_Chirkov = {
+		name = Viktor_Chirkov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Viktor_Chirkov
+			}
+		}
+		country_leader = {
+			ideology = autocracy
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}
