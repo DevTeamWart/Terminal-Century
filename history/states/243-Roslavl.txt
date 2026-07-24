@@ -4,13 +4,13 @@ state = {
 	manpower = 576210
 	state_category = rural
 	history = {
-		owner = RSF
+		owner = AWR
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 		}
 		victory_points = { 11336 1 }
-		add_core_of = RSF
+		add_core_of = AWR
 	}
 	provinces = {
 		223

@@ -16,8 +16,8 @@ state = {
 				arms_factory = 3
 			}
 		}
-		add_core_of = URL
-		owner = URL
+		owner = RFN
+		add_core_of = RFN
 	}
 	provinces = {
 		307

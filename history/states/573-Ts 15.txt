@@ -8,11 +8,11 @@ state = {
 	}
 	history = {
 		victory_points = { 10329 1 }
-		owner = URL
+		owner = RFN
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = URL
+		add_core_of = RFN
 	}
 	provinces = {
 		237

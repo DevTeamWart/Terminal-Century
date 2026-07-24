@@ -29,9 +29,9 @@ ideologies = {
 		types = {
 			christian = {}
 			accelerationism = {}
-			conditional_immortality = {}
 			partial_annihilationism = {}
 			ontological_annihilation = {}
+			cannibalism = {}
 		}
 		color = { 155 178 191 }
 		war_impact_on_world_tension = 0.05

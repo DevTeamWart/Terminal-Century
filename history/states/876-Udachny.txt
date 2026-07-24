@@ -2,11 +2,11 @@ state = {
 	id = 876
 	name = "STATE_876"
 	history = {
-		owner = SBC
+		owner = RPS
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SBC
+		add_core_of = RPS
 	}
 	provinces = { 1722 2853 3184 6085 13060 }
 	manpower = 12182

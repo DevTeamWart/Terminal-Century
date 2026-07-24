@@ -4,7 +4,7 @@ state = {
 	manpower = 1300028
 	state_category = large_town
 	history = {
-		owner = RSF
+		owner = AWR
 		victory_points = { 306 15 }
 		buildings = {
 			infrastructure = 3
@@ -16,7 +16,7 @@ state = {
 				industrial_complex = 2
 			}
 		}
-		add_core_of = RSF
+		add_core_of = AWR
 	}
 	provinces = {
 		306

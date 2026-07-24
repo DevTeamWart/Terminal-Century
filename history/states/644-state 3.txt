@@ -6,8 +6,8 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
-		owner = SBC
-		add_core_of = SBC
+		owner = RPS
+		add_core_of = RPS
 	}
 	provinces = {
 		1819

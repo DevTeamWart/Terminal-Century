@@ -8,8 +8,8 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
-		owner = URL
-		add_core_of = URL
+		owner = RFN
+		add_core_of = RFN
 	}
 	provinces = {
 		1387

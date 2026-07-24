@@ -2,12 +2,12 @@ state = {
 	id = 877
 	name = "STATE_877"
 	history = {
-		owner = SBC
+		owner = RPS
 		victory_points = { 12549 1 }
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SBC
+		add_core_of = RPS
 	}
 	provinces = {
 		1745

@@ -4,11 +4,11 @@ state = {
 	manpower = 15974
 	state_category = pastoral
 	history = {
-		owner = SBC
+		owner = RTN
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SBC
+		add_core_of = RTN
 	}
 	provinces = {
 		2900
