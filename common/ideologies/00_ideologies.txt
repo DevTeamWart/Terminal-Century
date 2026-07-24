@@ -5,7 +5,7 @@ ideologies = {
 			individualism = {}
 			anarcho_pasicifism = {}
 			anarcho_communism = {}
-			ancap = {}
+			anarcho_capitalism = {}
 		}
 		rules = {
 			can_force_government = no
