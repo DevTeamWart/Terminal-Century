@@ -2,11 +2,10 @@ ideologies = {
 	anarchism = {
 		types = {
 			makhnovshchina = {}
+			anarcho_pasicifism = {}
 			anarcho_communism = {}
 			ancap = {}
 			punk = {}
-			anarcho_capitalism = {}
-
 		}
 		rules = {
 			can_force_government = no

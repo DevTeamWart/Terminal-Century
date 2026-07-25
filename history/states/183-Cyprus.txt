@@ -7,7 +7,7 @@ state = {
 		chromium = 3
 	}
 	history = {
-		owner = TUR
+		owner = CYP
 		add_core_of = CYP
 		victory_points = { 11984 5 }
 		victory_points = { 7193 3 }

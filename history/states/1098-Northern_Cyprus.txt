@@ -1,0 +1,11 @@
+state = {
+	id = 1098
+	name = "Northern Cyprus"
+	manpower = 0
+	state_category = city
+	history = {
+		owner = ANC
+		add_core_of = ANC
+	}
+	provinces = { 13418 }
+}
