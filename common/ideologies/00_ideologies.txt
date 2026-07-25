@@ -143,9 +143,7 @@ ideologies = {
 	}
 	despotism = {
 		types = {
-			classical = {}
 			enlightened_despotism = {}
-			soft_despotism = {}
 			autocracy = {}
             anocracy = {}
             police_state = {}

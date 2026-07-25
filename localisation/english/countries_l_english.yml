@@ -281,8 +281,6 @@
  EST_democratic_ADJ:0 "Estonian"
  EST_neutrality_ADJ:0 "Estonian"
  EST_communism_ADJ:0 "Estonian"
- EST:0 "Estonia"
- EST_DEF:0 "Estonia"
  EST_ADJ:0 "Estonian"
  EST_subject:0 "$OVERLORDADJ$ $EST$"
  EST_subject_DEF:0 "$OVERLORDADJ$ $EST$"
