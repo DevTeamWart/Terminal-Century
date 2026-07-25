@@ -148,6 +148,8 @@ ideologies = {
 			enlightened_despotism = {}
 			soft_despotism = {}
 			autocracy = {}
+            anocracy = {}
+            police_state = {}
 			corporatism = {}
 		}
 		war_impact_on_world_tension = 0.05
