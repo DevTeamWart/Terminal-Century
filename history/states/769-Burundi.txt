@@ -14,7 +14,6 @@ state = {
 				modifier = COG_burundian_separatism_modifier
 			}
 		}
-		add_core_of = BRD
 		add_core_of = EAF
 		victory_points = { 2220 1 }
 		buildings = {

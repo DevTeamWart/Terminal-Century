@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_into_2010_we_step"
+		texturefile = "gfx/interface/goals/into_2010_we_step.dds"
+	}
+}

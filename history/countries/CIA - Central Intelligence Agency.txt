@@ -24,3 +24,4 @@ set_popularities = {
 	totalitarianism = 0
 }
 recruit_character = Norman_Jayden
+capital = 393

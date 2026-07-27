@@ -1,0 +1,13 @@
+add_namespace = usa
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_generic_sign_treaty
+	is_triggered_only = yes
+	option = {
+		name = usa.1.a
+	}
+	fire_for_sender = no
+	fire_only_once = yes
+}

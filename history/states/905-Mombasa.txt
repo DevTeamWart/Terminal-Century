@@ -12,7 +12,6 @@ state = {
 			}
 		}
 		victory_points = { 5210 1 }
-		add_core_of = KEN
 		add_core_of = EAF
 	}
 	provinces = { 5196 5210 6020 }

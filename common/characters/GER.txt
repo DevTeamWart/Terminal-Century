@@ -104,20 +104,6 @@ characters = {
 			id = -1
 		}
 	}
-	Sascha_Konietzko = {
-		name = Sascha_Konietzko
-		portraits = {
-			civilian = {
-				large = GFX_portrait_Sascha_Konietzko
-			}
-		}
-		country_leader = {
-			ideology = punk
-			expire = "1965.1.1.1"
-			traits = {}
-			id = -1
-		}
-	}
 	Lars_Klingbeil = {
 		name = Lars_Klingbeil
 		portraits = {

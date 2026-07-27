@@ -24,3 +24,4 @@ set_popularities = {
 	theocratism = 0
 	totalitarianism = 0
 }
+capital = 217

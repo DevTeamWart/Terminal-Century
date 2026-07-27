@@ -1,0 +1,25 @@
+focus_tree = {
+	id = usa_tree_one
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = into_2010_we_step
+		icon = GFX_focus_into_2010_we_step
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = {
+			add_political_power = 100
+		}
+		available = {
+			has_war = JBM
+		}
+	}
+}
