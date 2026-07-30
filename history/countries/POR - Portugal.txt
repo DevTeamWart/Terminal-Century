@@ -1,6 +1,6 @@
 capital = 112
 set_popularities = {
-	communism = 12
+	communism = 9
 	fascism = 9
 	anarchism = 3
 	annihilationism = 1
@@ -15,7 +15,15 @@ set_popularities = {
 	socialism = 14
 	theocratism = 10
 	totalitarianism = 6
+	islamic = 2
+	Zionsim = 1
 }
 set_research_slots = 3
 set_stability = 0.41
 set_war_support = 0.73
+set_politics = {
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}

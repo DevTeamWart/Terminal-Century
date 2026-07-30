@@ -13,7 +13,7 @@ set_popularities = {
 	anarchism = 2
 	annihilationism = 2
 	classicalist_liberalism = 1
-	conservatism = 16
+	conservatism = 12
 	despotism = 2
 	esotericsm = 1
 	liberal_conservatism = 3
@@ -23,6 +23,8 @@ set_popularities = {
 	socialism = 14
 	theocratism = 12
 	totalitarianism = 2
+	islamic = 3
+	Zionsim = 1
 }
 capital = 64
 recruit_character = Alexander_Gauland

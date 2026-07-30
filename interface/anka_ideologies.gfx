@@ -3,4 +3,28 @@ spriteTypes = {
 		name = "GFX_ideology_anarchism_group"
 		texturefile = "gfx/interface/ideologies/anarchism_group.dds"
 	}
+	SpriteType = {
+		name = "GFX_ideology_agenda2025_tot"
+		texturefile = "gfx/interface/ideologies/agenda2025_tot.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_british_socialism_tot"
+		texturefile = "gfx/interface/ideologies/british_socialism_tot.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_wagnerism"
+		texturefile = "gfx/interface/ideologies/wagnerism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_trumpism"
+		texturefile = "gfx/interface/ideologies/trumpism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_bidenism"
+		texturefile = "gfx/interface/ideologies/bidenism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_chiangism"
+		texturefile = "gfx/interface/ideologies/chiangism.dds"
+	}
 }

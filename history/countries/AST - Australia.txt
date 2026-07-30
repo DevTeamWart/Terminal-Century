@@ -20,7 +20,9 @@ set_popularities = {
 	national_socialism = 3
 	nationalist = 6
 	progressive_liberalism = 3
-	socialism = 17
+	socialism = 15
 	theocratism = 3
 	totalitarianism = 1
+	islamic = 2
+	Zionsim = 0
 }

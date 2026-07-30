@@ -27,11 +27,11 @@ ideologies = {
 	}
 	annihilationism = {
 		types = {
-			christian = {}
 			accelerationism = {}
-			partial_annihilationism = {}
 			cannibalism = {}
 			satanist = {}
+			algorithmic_paxism = {}
+			involutary_celibate = {}
 		}
 		color = { 155 178 191 }
 		war_impact_on_world_tension = 0.05
@@ -117,7 +117,7 @@ ideologies = {
 			social_conservatism = {}
 			national_conservatism = {}
 			libertarian_conservatism = {}
-			paleoconservatism = {}
+			trumpism = {}
 		}
 		war_impact_on_world_tension = 0.05
 		color = { 14 52 97 }
@@ -143,11 +143,11 @@ ideologies = {
 	}
 	despotism = {
 		types = {
-			enlightened_despotism = {}
 			autocracy = {}
-            anocracy = {}
-            police_state = {}
+			anocracy = {}
+			police_state = {}
 			corporatism = {}
+			chiangism = {}
 		}
 		war_impact_on_world_tension = 0.05
 		color = { 64 67 71 }
@@ -266,6 +266,7 @@ ideologies = {
 			orthodox_nazism = {}
 			völkisch_nazism = {}
 			neo_nazism = {}
+			neo_fascism = {}
 		}
 		war_impact_on_world_tension = 0.05
 		color = { 97 78 78 }
@@ -288,11 +289,11 @@ ideologies = {
 	}
 	nationalist = {
 		types = {
-			civic_nationalism = {}
 			ethnonationalism = {}
 			cultural_nationalism = {}
-			economic_nationalism = {}
 			anti_colonial_nationalism = {}
+			neo_batistaists = {}
+			ultranationalism = {}
 		}
 		war_impact_on_world_tension = 0.05
 		color = { 87 69 43 }
@@ -317,9 +318,9 @@ ideologies = {
 		types = {
 			social_liberalism = {}
 			technocratic_progressivism = {}
-			intersectionality = {}
 			eco_liberalism = {}
 			neo_progressivisim = {}
+			bidenim = {}
 		}
 		war_impact_on_world_tension = 0.05
 		color = { 71 173 73 }
@@ -416,6 +417,37 @@ ideologies = {
 			army_intel_to_others = -20.00
 			navy_intel_to_others = -20.0
 			airforce_intel_to_others = -5.00
+		}
+	}
+	islamic = {
+		color = { 41 122 52 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+		}
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		ai_neutral = yes
+		types = {
+			islamic_patriotism = {}
+			jihadism = {}
+			panarabic = {}
+		}
+	}
+	Zionsim = {
+		color = { 26 153 153 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+		}
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		ai_neutral = yes
+		types = {
+			imperialist_zionism = {}
+			jewish_patriotism = {}
 		}
 	}
 }

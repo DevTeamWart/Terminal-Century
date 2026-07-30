@@ -14,7 +14,7 @@ set_popularities = {
 	anarchism = 4
 	annihilationism = 1
 	classicalist_liberalism = 4
-	conservatism = 11
+	conservatism = 9
 	despotism = 2
 	esotericsm = 3
 	liberal_conservatism = 9
@@ -24,4 +24,6 @@ set_popularities = {
 	socialism = 24
 	theocratism = 4
 	totalitarianism = 3
+	islamic = 2
+	Zionsim = 0
 }

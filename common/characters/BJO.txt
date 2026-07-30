@@ -1,0 +1,11 @@
+characters = {
+	Bjorne_Hocke = {
+		name = Bjorne_Hocke
+		country_leader = {
+			ideology = cultural_nationalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

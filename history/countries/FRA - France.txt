@@ -24,4 +24,12 @@ set_popularities = {
 	socialism = 13
 	theocratism = 4
 	totalitarianism = 3
+	islamic = 0
+	Zionsim = 0
 }
+add_to_faction = GER
+add_to_faction = SPR
+add_to_faction = LUX
+add_to_faction = HOL
+add_to_faction = BEL
+create_faction = nato

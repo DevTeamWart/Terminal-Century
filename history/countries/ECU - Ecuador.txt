@@ -22,6 +22,8 @@ set_popularities = {
 	socialism = 0
 	theocratism = 0
 	totalitarianism = 0
+	islamic = 0
+	Zionsim = 0
 }
 set_stability = 0.43
 set_war_support = 0.2

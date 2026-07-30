@@ -18,6 +18,8 @@ set_popularities = {
 	socialism = 2
 	theocratism = 0
 	totalitarianism = 0
+	islamic = 0
+	Zionsim = 0
 }
 set_politics = {
 	ruling_party = conservatism

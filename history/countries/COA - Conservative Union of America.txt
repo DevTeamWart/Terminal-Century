@@ -13,7 +13,7 @@ set_popularities = {
 	anarchism = 1
 	annihilationism = 0
 	classicalist_liberalism = 7
-	conservatism = 70
+	conservatism = 40
 	despotism = 0
 	esotericsm = 0
 	liberal_conservatism = 0
@@ -23,5 +23,7 @@ set_popularities = {
 	socialism = 0
 	theocratism = 6
 	totalitarianism = 0
+	islamic = 2
+	Zionsim = 28
 }
 capital = 359

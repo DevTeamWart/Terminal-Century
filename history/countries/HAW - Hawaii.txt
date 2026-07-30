@@ -1,87 +1,29 @@
-﻿capital = 629
-
-#oob = ""
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
-
-set_convoys = 20
-
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-
-set_grand_doctrine = grand_battleplan
-
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
+capital = 629
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = progressive_liberalism
 	last_election = "1936.1.1"
 	elections_allowed = no
+	election_frequency = 48
 }
 set_popularities = {
-	democratic = 38
-	fascism = 6
-	communism = 6
-	neutrality = 50
+	communism = 2
+	fascism = 1
+	anarchism = 0
+	annihilationism = 0
+	classicalist_liberalism = 0
+	conservatism = 0
+	despotism = 0
+	esotericsm = 0
+	liberal_conservatism = 0
+	national_socialism = 0
+	nationalist = 2
+	progressive_liberalism = 92
+	socialism = 1
+	theocratism = 2
+	totalitarianism = 0
+	islamic = 0
+	Zionsim = 0
 }
-
-create_country_leader = {
-	name = "David Kalakaua Kawananakoa"
-	desc = ""
-	picture = GFX_portrait_David_Kalakaua_Kawananakoa
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Joseph Poindexter"
-	desc = ""
-	picture = GFX_portrait_Joseph_Poindexter
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Charles Fujimoto"
-	desc = ""
-	picture = GFX_portrait_Charles_Fujimoto
-	ideology = marxism
-	traits = {
-		#
-	}
-}
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5

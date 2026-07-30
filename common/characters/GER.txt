@@ -50,7 +50,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = economic_nationalism
+			ideology = ultranationalism
 			expire = "1965.1.1.1"
 			traits = {}
 			id = -1

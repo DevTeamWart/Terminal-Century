@@ -23,5 +23,7 @@ set_popularities = {
 	socialism = 14
 	theocratism = 16
 	totalitarianism = 0
+	islamic = 0
+	Zionsim = 0
 }
 capital = 366

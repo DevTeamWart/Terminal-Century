@@ -1,0 +1,11 @@
+state = {
+	id = 1100
+	name = "West Bank"
+	manpower = 0
+	state_category = city
+	history = {
+		owner = PAL
+		add_core_of = PAL
+	}
+	provinces = { 13419 }
+}

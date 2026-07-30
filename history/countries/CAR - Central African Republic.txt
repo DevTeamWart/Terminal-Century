@@ -3,6 +3,7 @@ set_politics = {
 	ruling_party = despotism
 	last_election = "1936.1.1"
 	elections_allowed = no
+	election_frequency = 48
 }
 set_popularities = {
 	communism = 0
@@ -20,6 +21,8 @@ set_popularities = {
 	socialism = 0
 	theocratism = 0
 	totalitarianism = 0
+	islamic = 0
+	Zionsim = 0
 }
 set_research_slots = 3
 set_stability = 0.1

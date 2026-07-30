@@ -15,7 +15,15 @@ set_popularities = {
 	socialism = 12
 	theocratism = 9
 	totalitarianism = 2
+	islamic = 0
+	Zionsim = 0
 }
 set_research_slots = 3
 set_stability = 0.62
 set_war_support = 0.41
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}

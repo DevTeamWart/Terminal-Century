@@ -1,6 +1,6 @@
 capital = 430
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = islamic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -11,7 +11,7 @@ set_popularities = {
 	anarchism = 1
 	annihilationism = 0
 	classicalist_liberalism = 5
-	conservatism = 64
+	conservatism = 30
 	despotism = 3
 	esotericsm = 8
 	liberal_conservatism = 3
@@ -21,6 +21,8 @@ set_popularities = {
 	socialism = 2
 	theocratism = 0
 	totalitarianism = 0
+	islamic = 34
+	Zionsim = 0
 }
 set_research_slots = 3
 set_stability = 0.92

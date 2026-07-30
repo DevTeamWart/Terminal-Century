@@ -21,6 +21,8 @@ set_popularities = {
 	socialism = 11
 	theocratism = 2
 	totalitarianism = 1
+	islamic = 0
+	Zionsim = 0
 }
 set_research_slots = 3
 set_stability = 1

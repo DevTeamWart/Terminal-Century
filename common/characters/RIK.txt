@@ -1,0 +1,11 @@
+characters = {
+	Richard_Kruspe = {
+		name = Richard_Kruspe
+		country_leader = {
+			ideology = punk
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

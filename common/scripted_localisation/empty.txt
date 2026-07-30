@@ -1,1 +1,3 @@
-#This is empty to Help load the game
+defined_text = {
+	name = faction_localisation
+}

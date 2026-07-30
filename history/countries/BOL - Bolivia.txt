@@ -24,4 +24,6 @@ set_popularities = {
 	socialism = 0
 	theocratism = 0
 	totalitarianism = 100
+	islamic = 0
+	Zionsim = 0
 }

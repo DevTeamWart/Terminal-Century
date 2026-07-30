@@ -1,0 +1,11 @@
+characters = {
+	Alexander_Gauland = {
+		name = Alexander_Gauland
+		country_leader = {
+			ideology = ethnonationalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}
