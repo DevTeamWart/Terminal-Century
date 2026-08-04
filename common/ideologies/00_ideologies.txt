@@ -4,8 +4,10 @@ ideologies = {
 			makhnovshchina = {}
 			anarcho_pasicifism = {}
 			anarcho_communism = {}
-			ancap = {}
+			anarcho_capitalism = {}
 			punk = {}
+            anarcho_nazism = {}
+            anarcho_fascism = {}
 		}
 		rules = {
 			can_force_government = no
@@ -31,7 +33,13 @@ ideologies = {
 			cannibalism = {}
 			satanist = {}
 			algorithmic_paxism = {}
+            revenge_theory = {}
 			involutary_celibate = {}
+            monumentalism = {}
+            disasterist_extinctionism = {}
+            apocalyptic_anti_americanism = {}
+            extraterrestrial_supremacy = {}
+            radiological_misantrophism = {}
 		}
 		color = { 155 178 191 }
 		war_impact_on_world_tension = 0.05
