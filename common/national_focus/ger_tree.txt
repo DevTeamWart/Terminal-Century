@@ -1,0 +1,153 @@
+focus_tree = {
+	id = ger_tree_one
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = the_german_decade
+		icon = "GFX_goal_generic_political_reform"
+		x = 6
+		y = 0
+		cost = 5
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = convene_the_bundestag
+		icon = "GFX_goal_generic_political_reform"
+		x = 4
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_political_power = 100
+		}
+		prerequisite = { focus = the_german_decade }
+	}
+	focus = {
+		id = new_welfare_policy
+		icon = "GFX_goal_generic_political_reform"
+		x = 8
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_stability = -2
+		}
+		prerequisite = { focus = the_german_decade }
+	}
+	focus = {
+		id = strengthen_the_borders
+		icon = "GFX_goal_generic_political_reform"
+		x = 10
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 5
+		}
+		prerequisite = { focus = convene_the_bundestag }
+		prerequisite = { focus = new_welfare_policy }
+	}
+	focus = {
+		id = relax_immigration_laws
+		icon = "GFX_goal_generic_political_reform"
+		x = 2
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_stability = -5
+			add_political_power = 50
+		}
+		prerequisite = { focus = convene_the_bundestag }
+		prerequisite = { focus = new_welfare_policy}
+		mutually_exclusive = { focus = strengthen_the_borders }
+	}
+	focus = {
+		id = seize_immigrant_assets
+		icon = "GFX_goal_generic_political_reform"
+		x = 12
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_political_power = -25
+		}
+		prerequisite = { focus = strengthen_the_borders }
+	}
+	focus = {
+		id = impose_import_quotas
+		icon = "GFX_goal_generic_political_reform"
+		x = 8
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_political_power = -20
+		}
+		prerequisite = { focus = strengthen_the_borders }
+	}
+	focus = {
+		id = cooperate_with_moderates
+		icon = "GFX_goal_generic_political_reform"
+		x = 4
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_political_power = 30
+		}
+		prerequisite = { focus = relax_immigration_laws }
+	}
+	focus = {
+		id = denounce_volkish_nationalists
+		icon = "GFX_goal_generic_political_reform"
+		x = 0
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_stability = 2
+			add_political_power = -25
+		}
+		prerequisite = { focus = relax_immigration_laws }
+	}
+	focus = {
+		id = a_proud_republic
+		icon = "GFX_goal_generic_political_reform"
+		x = 10
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_stability = 5
+			add_political_power = 100
+		}
+		prerequisite = { focus = impose_import_quotas }
+		prerequisite = { focus = seize_immigrant_assets }
+	}
+	focus = {
+		id = a_fair_republic
+		icon = "GFX_goal_generic_political_reform"
+		x = 2
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_stability = 5
+			add_political_power = 100
+		}
+		prerequisite = { focus = cooperate_with_moderates }
+		prerequisite = { focus = denounce_volkish_nationalists }
+	}
+	focus = {
+		id = the_issue_on_terrorism
+		icon = "GFX_goal_generic_political_reform"
+		x = 6
+		y = 5
+		cost = 5
+		completion_reward = {
+			#focus will be interrupted by the October 12 incident which will change the focus tree
+		}
+		prerequisite = { focus = a_proud_republic focus = a_fair_republic }
+	}
+}
