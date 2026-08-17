@@ -1,0 +1,347 @@
+focus_tree = {
+	id = GER_tree_two
+	country = {
+		factor = 0
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = GER_turn_a_blind_eye
+		icon = "GFX_goal_generic_political_reform"
+		x = 3
+		y = 0
+		cost = 2
+		completion_reward = {
+			add_political_power = -25
+			add_stability = -5
+			add_popularity = {
+				ideology = despotism
+				popularity = -5
+			}
+		}
+		mutually_exclusive = { focus = GER_never_forgive_never_forget focus = start_the_search }
+	}
+	focus = {
+		id = GER_start_the_search
+		icon = "GFX_goal_generic_political_reform"
+		x = 12
+		y = 0
+		cost = 2
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 5
+
+		}
+	}
+	focus = {
+		id = GER_never_forgive_never_forget
+		icon = "GFX_goal_generic_political_reform"
+		x = 22
+		y = 0
+		cost = 2
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 10
+			add_popularity = {
+				ideology = despotism
+				popularity = 5
+			}
+		}
+		mutually_exclusive = { focus = GER_turn_a_blind_eye focus = GER_start_the_search }
+	}
+	focus = {
+		id = GER_calm_the_people
+		icon = "GFX_goal_generic_political_reform"
+		x = 3
+		y = 1
+		cost = 2
+		completion_reward = {
+			add_stability = -5
+			add_popularity = {
+				ideology = despotism
+				popularity = -5
+			}
+			add_political_power = 40
+		}
+		prerequisite = { focus = GER_turn_a_blind_eye }
+	}
+	focus = {
+		id = GER_silence_the_opposition
+		icon = "GFX_goal_generic_political_reform"
+		x = 2
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_stability = 2
+			add_political_power = -50
+			add_popularity = {
+				ideology = despotism
+				popularity = -5
+			}
+		}
+		prerequisite = { focus = GER_calm_the_people }
+	}
+	focus = {
+		id = GER_everything_is_fine
+		icon = "GFX_goal_generic_political_reform"
+		x = 4
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_stability = 5
+			add_political_power = -20
+			add_popularity = {
+				ideology = despotism
+				popularity = -5
+			}
+		}
+		prerequisite = { focus = GER_calm_the_people }
+	}
+	focus = {
+		id = GER_divert_attention
+		icon = "GFX_goal_generic_political_reform"
+		x = 3
+		y = 3
+		cost = 2
+		completion_reward = {
+			add_stability = 5
+			add_political_power = -20
+			add_popularity = {
+				ideology = fascism
+				popularity = 1
+			}
+		}
+		prerequisite = { focus = GER_everything_is_fine focus = GER_silence_the_opposition }
+	}
+	focus = {
+		id = GER_the_people_on_strike
+		icon = "GFX_goal_generic_political_reform"
+		x = 1
+		y = 3
+		cost = 2
+		completion_reward = {
+			add_stability = -10
+			add_political_power = -20
+			add_popularity = {
+				ideology = despotism
+				popularity = -5
+			}
+		}
+		prerequisite = { focus = GER_silence_the_opposition }
+	}
+	focus = {
+		id = GER_question_the_leadership
+		icon = "GFX_goal_generic_political_reform"
+		x = 5
+		y = 3
+		cost = 2
+		completion_reward = {
+			add_stability = -10
+			add_political_power = -20
+			add_popularity = {
+				ideology = despotism
+				popularity = -5
+			}
+		}
+		prerequisite = { focus = GER_everything_is_fine }
+	}
+	focus = {
+		id = GER_quell_the_protests
+		icon = "GFX_goal_generic_political_reform"
+		x = 2
+		y = 4
+		cost = 2
+		completion_reward = {
+			add_stability = 5
+			add_political_power = -20
+			add_popularity = {
+				ideology = despotism
+				popularity = -3
+			}
+		}
+		prerequisite = { focus = GER_the_people_on_strike }
+		prerequisite = { focus = GER_divert_attention }
+	}
+	focus = {
+		id = GER_suppress_rioters
+		icon = "GFX_goal_generic_political_reform"
+		x = 4
+		y = 4
+		cost = 2
+		completion_reward = {
+			add_stability = 5
+			add_political_power = -20
+			add_popularity = {
+				ideology = despotism
+				popularity = -3
+			}
+		}
+		prerequisite = { focus = GER_question_the_leadership }
+		prerequisite = { focus = GER_divert_attention }
+	}
+	focus = {
+		id = GER_the_march_on_berlin
+		icon = "GFX_goal_generic_political_reform"
+		x = 3
+		y = 5
+		cost = 5
+		completion_reward = {
+			add_stability = -20
+			add_popularity = {
+				ideology = fascism
+				popularity = 10
+			}
+		}
+		prerequisite = { focus = GER_quell_the_protests }
+		prerequisite = { focus = GER_suppress_rioters}
+	}
+	focus = {
+		id = GER_the_NSAG #National Security Agency of Germany
+		icon = "GFX_goal_generic_political_reform"
+		x = 17
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_stability = 5
+			add_political_power = 100
+		}
+		prerequisite = { focus = GER_start_the_search focus = GER_never_forgive_never_forget }
+	}
+	focus = {
+		id = GER_appease_the_protests
+		icon = "GFX_goal_generic_political_reform"
+		x = 12
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_political_power = -20
+			add_stability = 5
+			add_popularity = {
+				ideology = despotism
+				popularity = 5
+			}
+		}
+		prerequisite = { focus = GER_start_the_search }
+	}
+	focus = {
+		id = GER_guarantee_the_status_quo
+		icon = "GFX_goal_generic_political_reform"
+		x = 16
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_stability = 5
+			add_political_power = -10
+		}
+		prerequisite = { focus = GER_the_NSAG }
+	}
+	focus = {
+		id = GER_grant_emergency_powers
+		icon = "GFX_goal_generic_political_reform"
+		x = 22
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_stability = 10
+			add_political_power = 150
+		}
+		prerequisite = { focus = GER_never_forgive_never_forget }
+	}
+	focus = {
+		id = GER_persecute_their_supporters
+		icon = "GFX_goal_generic_political_reform"
+		x = 18
+		y = 2
+		cost = 2
+		completion_reward = {
+			add_stability = 2
+		}
+		prerequisite = { focus = GER_the_NSAG }
+	}
+	focus = {
+		id = GER_the_restless_patriots
+		icon = "GFX_goal_generic_political_reform"
+		x = 22
+		y = 3
+		cost = 2
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = despotism
+				popularity = 5
+			}
+		}
+		prerequisite = { focus = GER_grant_emergency_powers }
+	}
+	focus = {
+		id = GER_spread_the_outrage
+		icon = "GFX_goal_generic_political_reform"
+		x = 12
+		y = 3
+		cost = 2
+		completion_reward = {
+			add_stability = -2
+			add_political_power = 200
+			add_popularity = {
+				ideology = despotism
+				popularity = 5
+			}
+		}
+		prerequisite = { focus = GER_appease_the_protests }
+	}
+	focus = {
+		id = GER_increase_the_patrols
+		icon = "GFX_goal_generic_political_reform"
+		x = 17
+		y = 3
+		cost = 3
+		completion_reward = {
+			add_stability = 5
+			add_political_power = 70
+		}
+		prerequisite = { focus = GER_guarantee_the_status_quo }
+		prerequisite = { focus = GER_persecute_their_supporters }
+	}
+	focus = {
+		id = GER_restore_our_pride
+		icon = "GFX_goal_generic_political_reform"
+		x = 14
+		y = 4
+		cost = 5
+		completion_reward = {
+			add_stability = 5
+			add_popularity = {
+				ideology = despotism
+				popularity = 2
+			}
+		}
+		prerequisite = { focus = GER_increase_the_patrols }
+		prerequisite = { focus = GER_spread_the_outrage }
+	}
+	focus = {
+		id = GER_expand_the_agency
+		icon = "GFX_goal_generic_political_reform"
+		x = 17
+		y = 4
+		cost = 5
+		completion_reward = {
+			add_stability = 10
+		}
+		prerequisite = { focus = GER_increase_the_patrols }
+		mutually_exclusive = { focus = GER_restore_our_pride }
+	}
+	focus = {
+		id = GER_consolidate_our_grip
+		icon = "GFX_goal_generic_political_reform"
+		x = 20
+		y = 4
+		cost = 5
+		completion_reward = {
+			add_political_power = 250
+			add_stability = 5
+		}
+		prerequisite = { focus = GER_increase_the_patrols }
+		prerequisite = { focus = GER_the_restless_patriots }
+		mutually_exclusive = { focus = GER_expand_the_agency focus = GER_restore_our_pride }
+	}
+}
