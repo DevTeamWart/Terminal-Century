@@ -204,6 +204,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 5
 			add_political_power = 100
+			add_ideas = the_national_security_agency
 		}
 		prerequisite = { focus = GER_start_the_search focus = GER_never_forgive_never_forget }
 	}
